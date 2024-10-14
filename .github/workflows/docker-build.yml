@@ -25,6 +25,7 @@ jobs:
     - name: Build Docker image
       run: docker build -t sasithorn11/react-docker-test5:0.2 .
 
+      
     # ขั้นตอนที่สี่: Push Docker image ไปที่ Docker Hub
     - name: Push Docker image to Docker Hub
       run: docker push sasithorn11/react-docker-test5:0.2
